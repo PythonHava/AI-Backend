@@ -1,3 +1,47 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# Python cache (in case you're using any .py scripts)
+__pycache__/
+
+# Local environment / credentials
+.env
 *.pem
+
+# Build output / deployment artifacts
 dist/
+build/
+.wrangler/
+
+# SSL, certificates, or temp test folders
+https-test/
 https-test/ssl
+
+# Resources that are downloaded by script (can be regenerated)
+ui-frontend/resources/
+resources/
+resources.hash
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PowerShell history or compiled scripts
+*.ps1
+
+# Docker
+*.img
+*.tar
+docker-compose.override.yml
+
+# IDE/editor config
+.vscode/
+.idea/
+
+# OS-specific
+ehthumbs.db
+desktop.ini
